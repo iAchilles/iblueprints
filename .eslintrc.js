@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 8,
     sourceType: 'module'
   },
   plugins: [
@@ -27,13 +27,13 @@ module.exports = {
         'tests/dummy/config/**/*.js'
       ],
       excludedFiles: [
-        'app/**',
+        '__root__/**',
         'addon/**',
-        'tests/dummy/app/**'
+        'tests/dummy/__root__/**'
       ],
       parserOptions: {
         sourceType: 'script',
-        ecmaVersion: 2015
+        ecmaVersion: 8
       },
       env: {
         browser: false,

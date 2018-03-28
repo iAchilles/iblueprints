@@ -1,12 +1,13 @@
 {
   "name": "iblueprints",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "The customized blueprints for ember applications.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "blueprints"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Igor Manturov, Jr.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -44,10 +45,11 @@
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^5.2.1",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "uppercamelcase": "^3.0.0"
   },
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": ">= 8.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

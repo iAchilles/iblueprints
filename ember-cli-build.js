@@ -8,10 +8,10 @@ module.exports = function(defaults) {
   });
 
   /*
-    This build file specifies the options for the dummy test app of this
+    This build file specifies the options for the dummy test __root__ of this
     addon, located in `/tests/dummy`
-    This build file does *not* influence how the addon or the app using it
-    behave. You most likely want to be modifying `./index.js` or app's build file
+    This build file does *not* influence how the addon or the __root__ using it
+    behave. You most likely want to be modifying `./index.js` or __root__'s build file
   */
 
   return app.toTree();
