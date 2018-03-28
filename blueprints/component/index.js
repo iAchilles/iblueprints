@@ -69,7 +69,7 @@ module.exports = {
     const uppercamelcase = require('uppercamelcase');
 
     var className;
-    var namespace = 'Controller';
+    var namespace = 'Component';
     var parts = options.entity.name.split('/');
 
     if (parts.length > 1) {
